@@ -1,7 +1,7 @@
 Algoritmo "MatrizSomas"
 Var
    valores: vetor[1..3,1..3] de real
-   somaTotal,somaLinha3,somaColuna,somaDiag: real
+   somaTotal,somaLinha3,somaColuna2,somaDiag: real
    i,j: inteiro
 Inicio
    somaLinha3 <- 0
@@ -23,8 +23,8 @@ Inicio
          fimse
       fimpara
    fimpara
-   Escreval("A soma total é:", somaTotal)
-   Escreval("A soma da linha 3 é:", somaLinha3)
-   Escreval("A soma da coluna 2 é:", somaColuna2)
-   Escreval("A soma da diagonal Principal é:", somaDiag)
+   Escreval("A soma total Ã©:", somaTotal)
+   Escreval("A soma da linha 3 Ã©:", somaLinha3)
+   Escreval("A soma da coluna 2 Ã©:", somaColuna2)
+   Escreval("A soma da diagonal Principal Ã©:", somaDiag)
 Fimalgoritmo
